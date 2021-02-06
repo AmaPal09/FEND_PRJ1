@@ -1,0 +1,25 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 3em;
+	text-align: center;
+}
+
+h2,
+h3{
+	font-family: 'Berkshire Swash', cursive;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 1em;
+
+}
