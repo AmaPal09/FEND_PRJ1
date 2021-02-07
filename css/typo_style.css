@@ -1,24 +1,89 @@
+Root*/
 *{
 	margin: 0;
 	padding: 0;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	background-color: #CCC;
+	/*font-style:*/
+
 }
 
+
+/*Typ*/
 h1{
-	font-family: 'Berkshire Swash', cursive;
+	font-family: "Berkshire Swash", cursive;
 	font-size: 3em;
 	text-align: center;
 }
 
 h2,
 h3{
-	font-family: 'Merriweather', cursive;
+	font-family: "Merriweather", cursive;
+	font-style: italic;
 	text-align: center;
 	font-size: 1.8em;
 }
 
 p{
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
+	font-size: 300;
 	text-align: center;
 	font-size: 1em;
 
+}
+
+a{
+	text-decoration: none;
+}
+
+/*Colors*/
+header.main-page-header{
+	background-color: #333;
+	color: #EEE;
+}
+
+.nav-bar ul{
+	list-style: none;
+}
+.nav-bar a{
+	color: #EEE;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+section.blogs {
+    background-color: #CCC;
+    color: #333;
+}
+
+a.blog-link {
+    background: #999;
+    color: #333;
+}
+
+footer{
+	background-color: #333;
+	color: #EEE;
+}
+button{
+    background: #999;
+    color: #333;
+}
+
+a.fa {
+	color: #EEE;
+}
+
+
+
+/*button{
+	font-family: "Merriweather", cursive;
+	font-size: 300;
+}
+
+button on hover {
+	font-family: "Merriweather", cursive;
+	font-size: 300;
+	font-style: italics;
 }
