@@ -6,6 +6,8 @@ Root*/
 	font-weight: 300;
 	background-color: #CCC;
 	/*font-style:*/
+	margin-block-start:0;
+	margin-block-end:0;
 
 }
 
@@ -30,6 +32,11 @@ p{
 	font-size: 300;
 	text-align: center;
 	font-size: 1em;
+}
+
+footer{
+	font-family: "Merriweather", cursive;
+	font-weight: 300;
 
 }
 
@@ -37,10 +44,15 @@ a{
 	text-decoration: none;
 }
 
+
+
+
 /*Colors*/
 header.main-page-header{
 	background-color: #333;
 	color: #EEE;
+	border: 5px;
+	border-color: #EEE
 }
 
 .nav-bar ul{
@@ -55,6 +67,8 @@ header.main-page-header{
 section.blogs {
     background-color: #CCC;
     color: #333;
+    border: 5px;
+    border-color: #333;
 }
 
 a.blog-link {
@@ -77,6 +91,7 @@ a.fa {
 
 
 
+
 /*button{
 	font-family: "Merriweather", cursive;
 	font-size: 300;
@@ -86,4 +101,40 @@ button on hover {
 	font-family: "Merriweather", cursive;
 	font-size: 300;
 	font-style: italics;
+}
+
+
+/*Padding adjustments */
+blockquote {
+	margin = 0;
+}
+
+ul {
+	margin-block-start:0;
+	margin-block-end:0;
+}
+blockquote{
+	margin-block-start:0;
+	margin-block-end:0;
+}
+
+h1 {
+	margin-block-start:0;
+	margin-block-end:0;
+}
+
+h2,
+h3 {
+	margin-block-start:0;
+	margin-block-end:0;
+}
+p{
+	margin-block-start:0;
+	margin-block-end:0;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	border: 2px, red;
 }
