@@ -1,3 +1,5 @@
+@import "./box_handling.css";
+
 /*Root*/
 *{
 	margin: 0;
@@ -37,14 +39,14 @@ p{
 footer{
 	font-family: "Merriweather", cursive;
 	font-weight: 300;
+	background-color: #333;
+	color: #EEE;
 
 }
 
 a{
 	text-decoration: none;
 }
-
-
 
 
 /*Colors*/
@@ -77,8 +79,7 @@ a.blog-link {
 }
 
 footer{
-	background-color: #333;
-	color: #EEE;
+
 }
 button{
     background: #999;
@@ -104,45 +105,3 @@ button on hover {
 }
 
 
-/*Padding adjustments */
-blockquote {
-	margin = 0;
-}
-
-ul {
-	margin-block-start:0;
-	margin-block-end:0;
-}
-blockquote{
-	margin-block-start:0;
-	margin-block-end:0;
-}
-
-h1 {
-	margin-block-start:0;
-	margin-block-end:0;
-}
-
-h2,
-h3 {
-	margin-block-start:0;
-	margin-block-end:0;
-}
-p{
-	margin-block-start:0;
-	margin-block-end:0;
-}
-
-img {
-	max-width: 100%;
-	height: auto;
-	/*border-radius: 2%;*/
-	/*border: 2px, red;*/
-}
-
-.blog {
-    border-width: 2px;
-    border-style: solid;
-    border-color: #333;
-    padding-bottom: 10px;
-}
