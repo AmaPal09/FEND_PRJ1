@@ -40,7 +40,9 @@ p{
 
 footer{
 	font-family: "Merriweather", cursive;
-	font-weight: 300;
+	font-style: italic;
+	/*font-weight: bold;*/
+	/*font-size:1.5em;*/
 	background-color: #333;
 	color: #EEE;
 
@@ -81,16 +83,16 @@ a.blog-link {
     color: #333;
 }
 
-footer{
-
-}
 button{
     background: #999;
     color: #333;
 }
 
-a.fa {
+.fa {
 	color: #EEE;
+	/*font-weight: bold;
+	font-size: 10em;*/
+
 }
 
 
