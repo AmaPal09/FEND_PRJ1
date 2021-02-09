@@ -38,7 +38,7 @@ nav ul li a:hover {
 	background-color: #333;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: center top;
 	background-attachment: fixed;
 	/*top:70%*/;
 }
