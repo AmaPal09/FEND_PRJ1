@@ -61,7 +61,8 @@ header.main-page-header{
 .nav-bar ul{
 	list-style: none;
 }
-.nav-bar a{
+
+.webpage-name,.nav-bar a{
 	color: #EEE;
 	font-size: 1.2em;
 	font-weight: bold;

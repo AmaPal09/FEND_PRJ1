@@ -6,6 +6,11 @@
 	height: 80px;
 	width:100%;
 }
+.webpage-name{
+	margin: 0 5px;
+	line-height: 80px;
+	padding: 5px;
+}
 nav ul {
 	margin-block-start:0;
 	margin-block-end:0;
