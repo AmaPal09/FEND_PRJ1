@@ -1,6 +1,7 @@
 /*Padding adjustments */
 
 /*Header section */
+/*Navigation Bar*/
 .nav-bar{
 	height: 80px;
 	width:100%;
@@ -26,21 +27,20 @@ nav ul li a:hover {
 	padding: 5px;
 }
 
-
-blockquote {
-	margin = 0;
+/*Title*/
+h1 {
+	padding-bottom: 5px;
+	/*margin-block-start:0;
+	margin-block-end:0;*/
 }
-
 
 blockquote{
-	margin-block-start:0;
-	margin-block-end:0;
+	margin = 0;
+	padding-bottom: 20px;
+/*	margin-block-start:0;
+	margin-block-end:0;*/
 }
 
-h1 {
-	margin-block-start:0;
-	margin-block-end:0;
-}
 
 
 /*Blogs section*/
@@ -48,7 +48,9 @@ h2,
 h3 {
 	margin-block-start:0;
 	margin-block-end:0;
+	padding: 10px;
 }
+
 p{
 	margin-block-start:0;
 	margin-block-end:0;
