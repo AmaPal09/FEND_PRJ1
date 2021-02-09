@@ -1,3 +1,4 @@
+/*Flex layout for various containers*/
 nav {
 	display: flex;
 	flex-direction: row;
@@ -28,3 +29,6 @@ nav {
 	justify-content: space-around;
 	/*margin: 5px 5px 5px 5px;*/
 }
+
+
+/*Grid layout for homepage*/
