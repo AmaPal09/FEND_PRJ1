@@ -78,7 +78,12 @@ img {
 
 
 /*Footer section*/
-footer {
+footer-div {
 	padding-bottom: 10px;
 }
+
+.social-media{
+	padding: 20px;
+}
+
 
