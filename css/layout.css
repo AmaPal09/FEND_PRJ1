@@ -12,3 +12,19 @@ nav {
 	align-items: center;
 	justify-content: space-around;
 }
+
+.subscription {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/*margin: 5px 5px 10px 10px;*/
+}
+
+.subscribe-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	/*margin: 5px 5px 5px 5px;*/
+}
