@@ -44,6 +44,9 @@ nav ul li a:hover {
 	/*top:70%*/;
 }
 
+.head-attraction-text{
+	transform: translateY(-30%);
+}
 /*.head-attraction:after {
 	content: "";
 	position: absolute;
