@@ -19,6 +19,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: "Merriweather", cursive;
+	font-size: 16px;
 	font-weight: "regular";
 	margin-block-start: 0;
 	margin-block-end: 0;
@@ -27,7 +28,7 @@
 /*Typography*/
 h1{
 	font-family: "Berkshire Swash", cursive;
-	font-size: 3em;
+	font-size: 4rem;
 	text-align: center;
 }
 

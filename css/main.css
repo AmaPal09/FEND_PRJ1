@@ -7,5 +7,19 @@
 /*Style sheets*/
 @import "./typo_style.css"
 
+/*@import "./box_handling.css";
+@import "./layout.css";*/
 
 
+/*Custom properties */
+
+/*ff: font-family*/
+/*fw: font-weight*/
+/*fs: font-size*/
+
+/*
+html{
+	font-family: "Merriweather", cursive;
+	font-size: 16px;
+	line-height: 1.2;
+}*/
