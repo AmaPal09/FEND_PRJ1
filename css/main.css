@@ -1,6 +1,11 @@
 /*Link for Google fonts to be used */
-@import url("https://fonts.gstatic.com");
-@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Merriweather:ital,wght@0,300;0,400;0,700;1,700&display=swap");
+
+/*<style>*/
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Merriweather:wght@400;900&display=swap');
+/*</style>*/
+
+/*@import url("https://fonts.gstatic.com");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Merriweather:ital,wght@0,300;0,400;0,700;1,700&display=swap");*/
 /*Link for social media icons */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
