@@ -10,6 +10,7 @@
 	font-weight: "regular";
 	text-align: center;
 	line-height: 1.2;
+	/*background-color: #fff;*/
 }
 
 
@@ -40,7 +41,7 @@ p{
 	font-size: 1rem;
 }
 
-.webpage-name p{
+.webpage-name {
 	font-family: "Berkshire Swash", cursive;
 	font-size: 1.2rem;
 /*	font-weight: bold;*/
@@ -51,16 +52,8 @@ p{
 	font-weight: bold;
 }
 
-.webpage-name,.nav-bar a{
-	color: #EEE;
-/*	font-size: 1.2em;
-	font-weight: bold;*/
-}
-
-
 footer{
-	font-family: "Merriweather", serif;
-	font-weight: 400;
+	font-size: 1.5rem;
 	font-style: italic;
 	background-color: #333;
 	color: #EEE;
@@ -78,6 +71,11 @@ header.main-page-header{
 	color: #EEE;
 	border: 5px;
 	border-color: #EEE
+}
+
+
+.nav-bar a{
+	color: #EEE;
 }
 
 .nav-bar ul{
@@ -104,23 +102,11 @@ button{
 
 .fa {
 	color: #EEE;
+	font-size: 2rem;
 	/*font-weight: bold;
 	font-size: 10em;*/
 
 }
 
-
-
-
-/*button{
-	font-family: "Merriweather", cursive;
-	font-size: 300;
-}
-
-button on hover {
-	font-family: "Merriweather", cursive;
-	font-size: 300;
-	font-style: italics;
-}
 
 
