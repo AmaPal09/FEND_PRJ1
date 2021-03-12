@@ -95,13 +95,6 @@ a{
 	color: inherit;
 }
 
-/*section.blogs {
-    background-color: #CCC;
-    color: #333;
-    border: 5px;
-    border-color: #333;
-}*/
-
 .blog-card-content {
 	background-color: #F63;
 	background-image: linear-gradient(#FCC, #FFF);
@@ -110,6 +103,12 @@ a{
 .btn {
 	background-color: #F63;
 	color: #FFF;
+}
+
+.btn:hover{
+    background-color: #600;
+    font-style: italic;
+    font-weight: bold;
 }
 
 footer {
@@ -121,5 +120,8 @@ footer {
 	color: #F63;
 }
 
+.fa:hover{
+	color: #600;
+}
 
 
