@@ -58,54 +58,58 @@ a{
 footer{
 	font-size: 1.5rem;
 	font-style: italic;
-	background-color: #333;
-	color: #EEE;
-
 }
 
-
-
-/*Colors*/
-header.main-page-header{
-	background-color: #333;
-	color: #EEE;
-	border: 5px;
-	border-color: #EEE
+.fa {
+	font-size: 2rem;
 }
 
-
-.nav-bar a{
-	color: #EEE;
+.copyrights p{
+	font-size: 0.8rem;
 }
 
-.nav-bar ul{
+ul{
 	list-style: none;
 }
 
+/*Colors*/
+/*header .main-page-header{*/
+header {
+	background-color: #F63;
+	color: #FFF;
+	border: 10px;
+	border-color: #FFF;
+}
 
-section.blogs {
+
+a{
+	color: inherit;
+}
+
+/*section.blogs {
     background-color: #CCC;
     color: #333;
     border: 5px;
     border-color: #333;
+}*/
+
+.blog-card-content {
+	background-color: #F63;
+	background-image: linear-gradient(#FCC, #FFF);
 }
 
-a.blog-link {
-    background: #999;
-    color: #333;
+.btn {
+	background-color: #F63;
+	color: #FFF;
 }
 
-button{
-    background: #999;
-    color: #333;
+footer {
+	background-color: #FFF;
+	color: #F63;
 }
 
 .fa {
-	color: #EEE;
-	font-size: 2rem;
-	/*font-weight: bold;
-	font-size: 10em;*/
-
+	color: #F63;
 }
 
 
