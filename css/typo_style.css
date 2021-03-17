@@ -95,10 +95,10 @@ a{
 	color: inherit;
 }
 
-.blog-card-content {
+/*.blog-card-content {
 	background-color: #F63;
 	background-image: linear-gradient(#FCC, #FFF);
-}
+}*/
 
 .btn {
 	background-color: #F63;
@@ -112,12 +112,15 @@ a{
 }
 
 footer {
-	background-color: #FFF;
-	color: #F63;
+/*	background-color: #FFF;
+	color: #F63;*/
+	background-color: #F63;
+	color: #FFF;
 }
 
 .fa {
-	color: #F63;
+	/*color: #F63;*/
+	color: #FFF;
 }
 
 .fa:hover{
