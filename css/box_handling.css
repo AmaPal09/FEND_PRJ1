@@ -145,6 +145,20 @@ input[type=text] {
 }
 
 
+/*blog html*/
+/*body*/
+.recipe-blog {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	padding: 0 0 10px 10px;
+}
+
+.recipe-blog p {
+	text-align: left;
+}
+
 ol {
 	list-style-position: inside;
 }
