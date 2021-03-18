@@ -159,7 +159,14 @@ input[type=text] {
 	text-align: left;
 }
 
+
 ol {
 	list-style-position: inside;
 }
 
+.author-avatar {
+	width: 10rem;
+	height: 10rem;
+	/*height: 150px;*/
+	border-radius: 100%;
+}
