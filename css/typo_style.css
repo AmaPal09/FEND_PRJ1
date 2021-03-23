@@ -123,10 +123,16 @@ h1,h2,h3 {
     font-weight: bold;
 }
 
+
+/*.subscrption {
+	background-color: #FDC;
+	color: #F63;
+}*/
+
 footer {
 	background-color: #FDC;
 	color: #F63;
-	/*background-color: #F63;
+/*	background-color: #F63;
 	color: #FFF;*/
 }
 
@@ -150,5 +156,9 @@ footer {
 
 .recipe-blog-main-section li{
 	text-align: left;
+}
+
+.square_list li{
+	list-style: square;
 }
 
