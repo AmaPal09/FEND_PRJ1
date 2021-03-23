@@ -133,6 +133,14 @@ footer {
 	margin: 20px 0  0 0;
 }
 
+
+.subscription {
+	padding: 5px;
+	display: flex;
+	background-color: #FDC;
+	color: #F63;
+}
+
 .social-media{
 	padding: 20px;
 }

@@ -130,10 +130,10 @@ h1,h2,h3 {
 }*/
 
 footer {
-	background-color: #FDC;
-	color: #F63;
-/*	background-color: #F63;
-	color: #FFF;*/
+	/*background-color: #FDC;*/
+	/*color: #F63;*/
+	background-color: #F63;
+	color: #FFF;
 }
 
 .fa {
