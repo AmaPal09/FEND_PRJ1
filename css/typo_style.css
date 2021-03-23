@@ -5,7 +5,7 @@
 *{
 	margin: 0;
 	/*padding: 0;*/
-	padding: 0 0 10px 0;
+	/*padding: 0 0 10px 0;*/
 	font-family: "Merriweather", serif;
 	font-size: 16px;
 	font-weight: "regular";
@@ -56,6 +56,13 @@ a{
 	font-weight: bold;
 }
 
+.blog-card-info {
+	font-size: 0.8rem;
+	color: #888;
+	/*opacity: 0.8;*/
+	padding: 0 0 5px 0;
+}
+
 footer{
 	font-size: 1.5rem;
 	font-style: italic;
@@ -96,6 +103,9 @@ a{
 	color: inherit;
 }
 
+h1,h2,h3 {
+	color: #F63;
+}
 /*.blog-card-content {
 	background-color: #F63;
 	background-image: linear-gradient(#FCC, #FFF);
@@ -108,6 +118,7 @@ a{
 
 .btn:hover{
     background-color: #600;
+    border-color: #600;
     font-style: italic;
     font-weight: bold;
 }
@@ -135,5 +146,9 @@ footer {
 .detail-type{
 	font-style: italic;
 	color: #F63;
+}
+
+.recipe-blog-main-section li{
+	text-align: left;
 }
 

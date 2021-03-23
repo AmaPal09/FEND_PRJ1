@@ -99,15 +99,24 @@ img {
 	max-width: 400px;
     border-width: 2px;
     border-style: solid;
-    border-color: #333;
+    border-color: #600;
+    border-radius: 2%;
     /*padding-bottom: 10px;*/
     padding: 0 0 10px 0;
     margin: 0 0 20px 0;
+    box-shadow: 3px 3px 3px #600;
+    transition: box-shadow 2s;
+}
+
+
+.blog:hover {
+	box-shadow: 6px 6px 6px #600;
 }
 
 .blog-img {
 	width: 100%;
 	height: auto;
+	border-radius: 2% 2% 0 0;
 }
 
 .card-button {
@@ -129,7 +138,7 @@ footer {
 	width: 100%;
 	padding: 5px;
 	/*margin: 5px;*/
-	border: 2px solid #ccc;
+	border: 2px solid #F63;
 	border-radius: 4px;
 	/*font-weight: bold;*/
 }
@@ -147,21 +156,46 @@ input[type=text] {
 
 /*blog html*/
 /*body*/
-.recipe-blog {
+.recipe-blog-main-section {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: flex-start;
-	padding: 0 0 10px 10px;
+	/*padding: 0 0 10px 10px;*/
+/*	border-style: solid;
+    border-color: #600;
+    border-radius: 2%;*/
+    padding: 10px;
+    /*margin: 10px;*/
+
 }
 
-.recipe-blog p {
+/*.recipe-blog-main-section {
+	border-style: solid;
+    border-color: #333;
+    padding: 0 0 20px 0;
+    margin: 0 0 30px 0;
+}*/
+
+.recipe-blog-main-section p {
 	text-align: left;
 }
 
+.recipe-content {
+	border-style: solid;
+    border-color: #600;
+    border-radius: 2%;
+    padding: 10px;
+    margin: 10px;
+}
 
 ol {
 	list-style-position: inside;
+}
+
+.blog-card-side-bar {
+	padding: 10px;
+	margin: 0 0 10px 0;
 }
 
 .author-avatar {
