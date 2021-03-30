@@ -57,3 +57,10 @@ nav {
 }
 
 
+.blogs-cards {
+  width: 90vw;
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    grid-template-rows: minmax(500px, auto);
+}
