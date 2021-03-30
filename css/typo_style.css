@@ -132,8 +132,8 @@ h1,h2,h3 {
 footer {
 	/*background-color: #FDC;*/
 	/*color: #F63;*/
-	background-color: #F63;
-	color: #FFF;
+	/*background-color: #F63;
+	color: #FFF;*/
 }
 
 .fa {
@@ -145,6 +145,15 @@ footer {
 	color: #600;
 }
 
+.left-side {
+	background-color: #F63;
+	color: #FFF;
+}
+
+.right-side {
+	background-color: #FDC;
+	color: #F63;
+}
 
 /*blog1 html*/
 /*section details*/

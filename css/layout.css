@@ -7,6 +7,14 @@ nav {
 	justify-content: space-between;
 }
 
+
+.head-attraction {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+}
+
 .social-media {
 	display: flex;
 	flex-direction: row;
@@ -30,11 +38,22 @@ nav {
 	/*margin: 5px 5px 5px 5px;*/
 }
 
-.head-attraction {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: flex-end;
-}
+
 
 /*Grid layout for homepage*/
+.footer-div{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:
+	"l-side r-side";
+}
+
+.right-side {
+	grid-area: r-side;
+}
+
+.left-side {
+	grid-area: l-side;
+}
+
+
