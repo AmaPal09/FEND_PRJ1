@@ -68,7 +68,8 @@ nav {
 
 /*grid layout for blog1*/
 .recipe-blog-page {
-    width: 90vw;
+    /*width: 90vw;*/
     display: grid;
+    grid-gap: 20px;
     grid-template-columns: 9fr 3fr;
 }
