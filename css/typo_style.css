@@ -1,5 +1,7 @@
-@import "./box_handling.css";
-@import "./layout.css";
+/*@import "./box_handling.css";*/
+@import url(./box_handling.css);
+/*@import "./layout.css";*/
+@import url(./layout.css);
 
 
 *{
@@ -135,12 +137,12 @@ h3 {
 	color: #F63;
 }*/
 
-footer {
+/*footer {*/
 	/*background-color: #FDC;*/
 	/*color: #F63;*/
 	/*background-color: #F63;
 	color: #FFF;*/
-}
+/*}*/
 
 /*.fa {*/
 	/*color: #F63;*/
