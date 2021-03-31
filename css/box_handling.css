@@ -6,7 +6,8 @@ header {
 	margin: 0 0 10px 0;
 }
 .nav-bar{
-	height: 80px;
+	/*height: 80px;*/
+	height: 5rem;
 	width:100%;
 }
 .webpage-name{
