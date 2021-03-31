@@ -20,6 +20,7 @@ h1{
 	font-family: "Berkshire Swash", cursive;
 	font-size: 4rem;
 	text-align: center;
+	color: #F63;
 }
 
 h2,
@@ -28,6 +29,7 @@ h3{
 	font-style: italic;
 	text-align: center;
 	font-weight: bold;
+	color: #F63;
 }
 
 h2{
@@ -44,6 +46,7 @@ p{
 
 a{
 	text-decoration: none;
+	color: inherit;
 }
 
 .webpage-name {
@@ -70,6 +73,7 @@ footer{
 
 .fa {
 	font-size: 2rem;
+	color: #FFF;
 }
 
 .copyrights p{
@@ -99,13 +103,15 @@ nav ul li a:hover {
 	padding: 5px;
 }
 
-a{
+/*a{
 	color: inherit;
-}
+}*/
 
-h1,h2,h3 {
+/*h1,
+h2,
+h3 {
 	color: #F63;
-}
+}*/
 /*.blog-card-content {
 	background-color: #F63;
 	background-image: linear-gradient(#FCC, #FFF);
@@ -136,13 +142,14 @@ footer {
 	color: #FFF;*/
 }
 
-.fa {
+/*.fa {*/
 	/*color: #F63;*/
-	color: #FFF;
-}
+	/*color: #FFF;*/
+/*}*/
 
 .fa:hover{
 	color: #600;
+	transform: scale(1.08);
 }
 
 .left-side {
