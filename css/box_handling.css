@@ -46,9 +46,12 @@ nav ul li{
 	/*top:70%*/;
 }
 
+/*TODO: check if it is possible
+replace the trasform, translate by a margin of 20px*/
 .head-attraction-text{
 	transform: translateY(-30%);
 }
+
 /*.head-attraction:after {
 	content: "";
 	position: absolute;
