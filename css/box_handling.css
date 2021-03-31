@@ -5,26 +5,30 @@ header {
 	padding: 0;
 	margin: 0 0 10px 0;
 }
+
 .nav-bar{
 	/*height: 80px;*/
 	height: 5rem;
 	width:100%;
 }
+
 .webpage-name{
 	/*margin: 0 5px;
 	line-height: 80px;*/
 	padding: 5px;
 }
+
 nav ul {
 	/*margin-block-start:0;*/
 	/*margin-block-end:0;*/
 	float: right;
 	/*margin-right: 10px*/
 }
+
 nav ul li{
 	display: inline-block;
 	margin: 0 5px;
-	line-height: 80px;
+	/*line-height: 80px;*/
 	padding: 5px;
 }
 
