@@ -18,10 +18,10 @@
 
 
 	.blogs-cards {
-		width: 90vw;
+		/*width: 90vw;*/
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-gap: 25px;
+		grid-gap: 50px;
 		/*grid-template-rows: minmax(500px, auto);*/
 		grid-auto-rows: auto;
 	}
