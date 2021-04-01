@@ -12,6 +12,26 @@
 		justify-content: space-between;
 	}
 
+	.webpage-name {
+		font-size: 2.5rem;
+	}
+
+
+	.blogs-cards {
+		width: 90vw;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 25px;
+		/*grid-template-rows: minmax(500px, auto);*/
+		grid-auto-rows: auto;
+	}
+
+	.blog {
+		/*max-width: 400px;
+		width: minmax(300px 400px);*/
+		width: auto;
+	}
+
 	.footer-div {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -25,6 +45,35 @@
 
 	.left-side {
 		grid-area: l-side;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+
+	.recipe-blog-main-section p {
+		text-align: left;
+	}
+
+	.recipe-blog-main-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	/*padding: 0 0 10px 10px;*/
+/*	border-style: solid;
+    border-color: #600;
+    border-radius: 2%;*/
+    padding: 10px;
+    /*margin: 10px;*/
+	}
+
+	.recipe-blog-page {
+    /*width: 90vw;*/
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 9fr 3fr;
 	}
 
 }
+
