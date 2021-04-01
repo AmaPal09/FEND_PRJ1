@@ -1,10 +1,12 @@
 /*Flex layout for various containers*/
 nav {
 	display: flex;
-	flex-direction: row;
+	/*flex-direction: row;*/
+	flex-direction: column;
 	/*flex-wrap: wrap;*/
 	align-items: center;
-	justify-content: space-between;
+	/*justify-content: space-between;*/
+	justify-content: space-evenly;
 }
 
 
@@ -41,7 +43,7 @@ nav {
 
 
 /*Grid layout for homepage*/
-.footer-div{
+/*.footer-div{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-areas:
@@ -55,7 +57,7 @@ nav {
 .left-side {
 	grid-area: l-side;
 }
-
+*/
 
 .blogs-cards {
 	width: 90vw;

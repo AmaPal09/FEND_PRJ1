@@ -3,4 +3,28 @@
 		font-size: 16px;
 		/*margin: 0;*/
 	}
+
+	nav {
+		display: flex;
+		flex-direction: row;
+		/*flex-wrap: wrap;*/
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.footer-div {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas:
+		"l-side r-side";
+	}
+
+	.right-side {
+		grid-area: r-side;
+	}
+
+	.left-side {
+		grid-area: l-side;
+	}
+
 }
