@@ -184,7 +184,8 @@ h3 {
 
 /*author-info section*/
 .author-name {
-	font-size: 1.2rem;
+	font-style: italic;
+	padding: 3px 0;
 }
 
 /*@import url(./responsive_layout.css)
