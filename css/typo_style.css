@@ -182,5 +182,9 @@ h3 {
 	list-style: square;
 }
 
+/*author-info section*/
+.author-name {
+	font-size: 1.2rem;
+}
 
-/*@import url(./responsive_layout.css)*/
+/*@import url(./responsive_layout.css)
