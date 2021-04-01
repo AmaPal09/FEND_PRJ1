@@ -199,7 +199,8 @@ input[type=text] {
 	border-style: solid;
     border-color: #600;
     border-radius: 2%;
-    padding: 10px;
+    /*padding: 10px;*/
+    padding: 5px;
     margin: 10px;
 }
 
