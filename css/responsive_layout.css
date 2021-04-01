@@ -1,19 +1,19 @@
-@media (min-width: 601px) /*and (max-width: 900px)*/{
+@media (min-width: 601px) and (max-width: 900px){
 	/*Root*/
 	* {
 		font-size: 16px;
 	}
 
 	/*Header*/
+	.webpage-name {
+		font-size: 2.5rem;
+	}
+
 	nav {
-		display: flex;
+		/*display: flex;*/
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;
-	}
-
-	.webpage-name {
-		font-size: 2.5rem;
 	}
 
 	/*Content*/
@@ -30,21 +30,11 @@
 
 	/*Footer*/
 	.footer-div {
-		display: grid;
+		/*display: grid;*/
 		grid-template-columns: 1fr 1fr;
+		grid-auto-rows: auto;
 		grid-template-areas:
 		"l-side r-side";
-	}
-
-	.right-side {
-		grid-area: r-side;
-	}
-
-	.left-side {
-		grid-area: l-side;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
 	}
 
 	/*Blog1 content*/
@@ -68,6 +58,68 @@
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 5fr 2fr;
+	}
+}
+
+
+@media (min-width: 901px) {
+	/*Root*/
+	* {
+		font-size: 18px;
+	}
+
+	/*Header*/
+	.webpage-name {
+		font-size: 2.5rem;
+	}
+
+	nav {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	/*Content*/
+	.blogs-cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 50px;
+		grid-auto-rows: auto;
+	}
+
+	.blog {
+		width: auto;
+	}
+
+	/*Footer*/
+	.footer-div {
+		grid-template-columns: 1fr 1fr;
+		grid-auto-rows: auto;
+		grid-template-areas:
+		"l-side r-side";
+	}
+
+	/*Blog1 content*/
+	.recipe-blog-main-section p {
+		text-align: left;
+	}
+
+	.recipe-blog-main-section h3 {
+		text-align: left;
+	}
+
+	.recipe-blog-main-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: flex-start;
+    padding: 10px;
+	}
+
+	.recipe-blog-page {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 8fr 3fr;
 	}
 }
 

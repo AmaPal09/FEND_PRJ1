@@ -46,11 +46,19 @@ nav {
 
 
 /*Grid layout for homepage*/
-/*.footer-div{
+.blog-cards {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
+	grid-gap: 25px;
+	grid-auto-rows: auto;
+}
+
+.footer-div{
+	display: grid;
+	grid-auto-rows: auto;
 	grid-template-areas:
-	"l-side r-side";
+	"r-side"
+	"l-side";
 }
 
 .right-side {
@@ -59,8 +67,11 @@ nav {
 
 .left-side {
 	grid-area: l-side;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
-*/
+
 
 /*
 .blogs-cards {
