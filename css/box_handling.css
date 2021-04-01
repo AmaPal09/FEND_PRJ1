@@ -1,34 +1,38 @@
+/*Basic elements*/
+h1 {
+	padding: 10px;
+	margin: 0 0 10px 0;
+}
 
-/*Header section */
+blockquote {
+	padding-bottom: 10px;
+}
+
+h2,
+h3 {
+	padding: 10px;
+	margin: 0 0 10px 0;
+}
+
+/*Header*/
 /*Navigation Bar*/
 header {
 	padding: 0;
 	margin: 0 0 10px 0;
 }
 
-.nav-bar{
-	/*height: 80px;*/
+.nav-bar {
 	height: 7rem;
-	width:100%;
+	width: 100%;
 }
 
-.webpage-name{
-	/*margin: 0 5px;
-	line-height: 80px;*/
+.webpage-name {
 	padding: 5px;
 }
 
-nav ul {
-	/*margin-block-start:0;*/
-	/*margin-block-end:0;*/
-	/*float: right;*/
-	/*margin-right: 10px*/
-}
-
-nav ul li{
+nav ul li {
 	display: inline-block;
 	margin: 0 5px;
-	/*line-height: 80px;*/
 	padding: 5px;
 }
 
@@ -37,82 +41,30 @@ nav ul li{
 	height: 75vh;
 	background-image: url(../images/dinner_plates.jpg);
 	background-color: #333;
-	/*background: rgba(0,0,0,0.8);*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center top;
 	background-attachment: fixed;
-	/*padding: 0;*/
-	/*top:70%*/;
 }
 
-/*TODO: check if it is possible
-replace the trasform, translate by a margin of 20px*/
-.head-attraction-text{
+.head-attraction-text {
 	transform: translateY(-30%);
 }
 
-/*.head-attraction:after {
-	content: "";
-	position: absolute;
-	left: 0;
-	top:0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,255,0.1);
-}*/
 
-/*Title*/
-h1 {
-	padding: 10px;
-	margin: 0 0 10px 0;
-	/*margin-block-start:0;
-	margin-block-end:0;*/
-}
-
-blockquote{
-	/*margin = 0;*/
-	padding-bottom: 10px;
-/*	margin-block-start:0;
-	margin-block-end:0;*/
-}
-
-
-/*Blogs section*/
-h2,
-h3 {
-	/*margin-block-start:0;*/
-	/*margin-block-end:0;*/
-	padding: 10px;
-	margin: 0 0 10px 0;
-}
-
-p{
-	/*margin-block-start:0;
-	margin-block-end:0;*/
-}
-
-img {
-	/*max-width: 100%;*/
-	/*height: auto;*/
-	/*border-radius: 2%;*/
-	/*border: 2px, red;*/
-	/*padding-bottom: 5px;*/
-}
+/*Content*/
+/*Section blogs*/
 
 .blogs {
 	display: inline-block;
-	/*justify-content: center;*/
 }
 
 .blog {
-	/*max-width: 400px;*/
 	max-width: 300px;
     border-width: 2px;
     border-style: solid;
     border-color: #600;
     border-radius: 2%;
-    /*padding-bottom: 10px;*/
     padding: 0 0 10px 0;
     margin: 0 0 30px 0;
     box-shadow: 5px 5px 5px #600;
@@ -130,14 +82,15 @@ img {
 	border-radius: 2% 2% 0 0;
 }
 
-.card-button {
-	/*width: 100%;*/
+.btn {
+	width: 100%;
+	padding: 5px;
+	border: 2px solid #F63;
+	border-radius: 4px;
 }
 
-
-/*Footer section*/
+/*Footer*/
 footer {
-	/*padding-bottom: 10px;*/
 	margin: 20px 0  0 0;
 }
 
@@ -156,22 +109,11 @@ footer {
 	color: #F63;
 }
 
-.social-media{
+.social-media {
 	padding: 20px;
 }
 
-.btn {
-	width: 100%;
-	padding: 5px;
-	/*margin: 5px;*/
-	border: 2px solid #F63;
-	border-radius: 4px;
-	/*font-weight: bold;*/
-}
-
 input[type=text] {
-	/*width: 100%;*/
-	/*width: 80%;*/
 	padding: 8px;
 	margin: 5px;
 	border: 2px solid #999;
@@ -181,17 +123,8 @@ input[type=text] {
 
 
 /*blog html*/
-/*body*/
-
-/*.recipe-blog-main-section {
-	border-style: solid;
-    border-color: #333;
-    padding: 0 0 20px 0;
-    margin: 0 0 30px 0;
-}*/
-
+/*content*/
 .recipe-blog-main-section p {
-	/*text-align: left;*/
 	text-align: center;
 }
 
@@ -199,14 +132,9 @@ input[type=text] {
 	border-style: solid;
     border-color: #600;
     border-radius: 2%;
-    /*padding: 10px;*/
     padding: 5px;
     margin: 10px;
 }
-
-/*ol {
-	list-style-position: inside;
-}*/
 
 .blog-card-side-bar {
 	padding: 10px;
@@ -216,6 +144,5 @@ input[type=text] {
 .author-avatar {
 	width: 10rem;
 	height: 10rem;
-	/*height: 150px;*/
 	border-radius: 100%;
 }
