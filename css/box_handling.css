@@ -118,7 +118,6 @@ img {
     transition: box-shadow 2s;
 }
 
-
 .blog:hover {
 	box-shadow: 6px 6px 6px #600;
 }
