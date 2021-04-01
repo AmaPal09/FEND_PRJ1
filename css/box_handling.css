@@ -107,7 +107,7 @@ img {
 
 .blog {
 	/*max-width: 400px;*/
-	max-width: 300px
+	max-width: 300px;
     border-width: 2px;
     border-style: solid;
     border-color: #600;
@@ -191,7 +191,8 @@ input[type=text] {
 }*/
 
 .recipe-blog-main-section p {
-	text-align: left;
+	/*text-align: left;*/
+	text-align: center;
 }
 
 .recipe-content {
