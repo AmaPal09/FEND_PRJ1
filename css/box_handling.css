@@ -124,6 +124,9 @@ input[type=text] {
 
 /*blog html*/
 /*content*/
+.recipe-blog-main-section {
+    padding: 10px;
+}
 .recipe-blog-main-section p {
 	text-align: center;
 }
