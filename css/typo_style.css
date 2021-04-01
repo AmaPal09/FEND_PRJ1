@@ -1,25 +1,18 @@
-/*@import "./box_handling.css";*/
-/*@import url(./box_handling.css);*/
-/*@import "./layout.css";*/
-/*@import url(./layout.css);*/
-
-
-*{
+/*Root */
+* {
 	margin: 0;
-	/*padding: 0;*/
-	/*padding: 0 0 10px 0;*/
 	font-family: "Merriweather", serif;
 	/*font-size: 16px;*/
 	font-size: 14px;
 	font-weight: "regular";
 	text-align: center;
 	line-height: 1.2;
-	/*background-color: #fff;*/
 }
 
 
 /*Typography*/
-h1{
+/*Basic element typography */
+h1 {
 	font-family: "Berkshire Swash", cursive;
 	font-size: 4rem;
 	text-align: center;
@@ -27,7 +20,7 @@ h1{
 }
 
 h2,
-h3{
+h3 {
 	font-family: "Merriweather", serif;
 	font-style: italic;
 	text-align: center;
@@ -35,42 +28,51 @@ h3{
 	color: #F63;
 }
 
-h2{
+h2 {
 	font-size: 2.5rem;
 }
 
-h3{
+h3 {
 	font-size: 1.8rem;
 }
 
-p{
+p {
 	font-size: 1rem;
 }
 
-a{
+a {
 	text-decoration: none;
 	color: inherit;
 }
 
-.webpage-name {
-	font-family: "Berkshire Swash", cursive;
-	/*font-size: 1.2rem;*/
-	font-size:  1.5rem
+ul{
+	list-style: none;
 }
 
-.nav-bar a{
+
+/*Header*/
+/*Typography for header section*/
+.webpage-name {
+	font-family: "Berkshire Swash", cursive;
+	font-size: 1.5rem;
+}
+
+.nav-bar a {
 	font-size: 1.2rem;
 	font-weight: bold;
 }
 
+/*Section class: "blogs"*/
+/*Typography for section class blogs*/
 .blog-card-info {
 	font-size: 0.8rem;
 	color: #888;
-	/*opacity: 0.8;*/
 	padding: 0 0 5px 0;
 }
 
-footer{
+/*Footer*/
+/*Typography for footer*/
+footer {
 	font-size: 1.5rem;
 	font-style: italic;
 }
@@ -80,16 +82,15 @@ footer{
 	color: #FFF;
 }
 
-.copyrights p{
+.copyrights p {
 	font-size: 0.8rem;
 }
 
-ul{
-	list-style: none;
-}
 
-/*Colors*/
-/*header .main-page-header{*/
+/*Color*/
+/*Color handling of various elements*/
+
+/*Header*/
 header {
 	background-color: #F63;
 	color: #FFF;
@@ -97,61 +98,30 @@ header {
 	border-color: #FFF;
 }
 
-
 nav ul li a:hover {
 	font-style: italic;
 	font-weight: bold;
-	/*background-color: #EEE;*/
-	/*color: #333;*/
 	color: #600;
 	padding: 5px;
 }
 
-/*a{
-	color: inherit;
-}*/
-
-/*h1,
-h2,
-h3 {
-	color: #F63;
-}*/
-/*.blog-card-content {
-	background-color: #F63;
-	background-image: linear-gradient(#FCC, #FFF);
-}*/
-
+/*Content*/
+/*Content colors*/
 .btn {
 	background-color: #F63;
 	color: #FFF;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #600;
     border-color: #600;
     font-style: italic;
     font-weight: bold;
 }
 
-
-/*.subscrption {
-	background-color: #FDC;
-	color: #F63;
-}*/
-
-/*footer {*/
-	/*background-color: #FDC;*/
-	/*color: #F63;*/
-	/*background-color: #F63;
-	color: #FFF;*/
-/*}*/
-
-/*.fa {*/
-	/*color: #F63;*/
-	/*color: #FFF;*/
-/*}*/
-
-.fa:hover{
+/*Footer*/
+/*Footer color*/
+.fa:hover {
 	color: #600;
 	transform: scale(1.08);
 }
@@ -167,21 +137,23 @@ h3 {
 }
 
 /*blog1 html*/
-/*section details*/
-/*article*/
-.detail-type{
+
+/*Content*/
+/*section class:recipe-blog-page*/
+.detail-type {
 	font-style: italic;
 	color: #F63;
 }
 
-.recipe-blog-main-section li{
+.recipe-blog-main-section li {
 	text-align: left;
 }
 
-.square_list li{
+.square_list li {
 	list-style: square;
 }
 
+/*Content*/
 /*author-info section*/
 .author-name {
 	font-style: italic;
@@ -191,4 +163,3 @@ h3 {
 .author-info {
 	padding: 10px;
 }
-/*@import url(./responsive_layout.css)
