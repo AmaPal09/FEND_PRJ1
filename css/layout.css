@@ -72,25 +72,3 @@ nav {
 	justify-content: space-around;
 }
 
-
-/*
-.blogs-cards {
-	width: 90vw;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 25px;
-	grid-template-rows: minmax(500px, auto);
-}
-*/
-
-/*grid layout for blog1*/
-
-/*.recipe-blog-page {*/
-    /*width: 90vw;*/
-    /*display: grid;*/
-    /*grid-gap: 20px;*/
-    /*grid-template-columns: 9fr 3fr;*/
-/*}*/
-
-
-

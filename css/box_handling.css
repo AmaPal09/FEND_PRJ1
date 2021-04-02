@@ -30,11 +30,6 @@ header {
 	padding: 5px;
 }
 
-/*nav ul li {
-	display: inline-block;
-	margin: 0 5px;
-	padding: 5px;
-}*/
 .nav-list-item {
 	display: inline-block;
 	margin: 0 5px;
@@ -59,7 +54,6 @@ header {
 
 /*Content*/
 /*Section blogs*/
-
 .blogs {
 	display: inline-block;
 }
@@ -131,13 +125,6 @@ input[type=text] {
 /*content*/
 .recipe-blog-main-section {
     padding: 10px;
-}
-/*.recipe-blog-main-section p {
-	text-align: center;
-}*/
-
-.recipe-blog-text {
-	text-align: center;
 }
 
 .recipe-content {
