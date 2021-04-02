@@ -57,9 +57,21 @@ ul{
 	font-size: 1.5rem;
 }
 
-.nav-bar a {
+/*.nav-bar a {
 	font-size: 1.2rem;
 	font-weight: bold;
+}*/
+
+.navbar-link {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.navbar-link:hover {
+	font-style: italic;
+	font-weight: bold;
+	color: #600;
+	padding: 5px;
 }
 
 /*Section class: "blogs"*/
@@ -104,12 +116,12 @@ header {
 	border-color: #FFF;
 }
 
-nav ul li a:hover {
+/*nav ul li a:hover {
 	font-style: italic;
 	font-weight: bold;
 	color: #600;
 	padding: 5px;
-}
+}*/
 
 /*Content*/
 /*Content colors*/
@@ -151,14 +163,20 @@ nav ul li a:hover {
 	color: #F63;
 }
 
-.recipe-blog-main-section li {
+/*.recipe-blog-main-section li {
+	text-align: left;
+}*/
+
+.main-recipe-list-item {
 	text-align: left;
 }
+/*.square_list li {
+	list-style: square;
+}*/
 
-.square_list li {
+.square-list {
 	list-style: square;
 }
-
 /*Content*/
 /*author-info section*/
 .author-name {
