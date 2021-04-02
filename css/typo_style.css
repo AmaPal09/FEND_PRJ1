@@ -82,11 +82,17 @@ footer {
 	color: #FFF;
 }
 
-.copyrights p {
+/*.copyrights p {
+	font-size: 0.8rem;
+}*/
+
+.copyright-statement {
 	font-size: 0.8rem;
 }
 
-
+/*.smallest {
+	font-size: 0.8rem;
+}*/
 /*Color*/
 /*Color handling of various elements*/
 
