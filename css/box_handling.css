@@ -47,6 +47,19 @@ header {
 	background-attachment: fixed;
 }
 
+.head-attraction::before {
+	content: "";
+	position: absolute;
+	/*Match top with height of nav-bar*/
+	top: 7rem;
+	right: 0;
+	/*match height of head-attraction*/
+	height: 75vh;
+	/*bottom: 0;*/
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.40);
+}
+
 .head-attraction-text {
 	transform: translateY(-30%);
 }
