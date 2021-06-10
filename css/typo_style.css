@@ -72,6 +72,10 @@ ul{
 
 /*Section class: "blogs"*/
 /*Typography for section class blogs*/
+.blog-card-body {
+	padding: 0 0.2rem;
+}
+
 .blog-card-info {
 	font-size: 0.8rem;
 	color: #888;
