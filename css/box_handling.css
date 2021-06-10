@@ -162,11 +162,13 @@ input[type=text] {
 }
 
 .recipe-content {
-	border-style: solid;
+	/*border-style: solid;*/
+	border-top: solid;
+	border-bottom: solid;
     border-color: #600;
-    border-radius: 2%;
-    padding: 5px;
-    margin: 10px;
+    /*border-radius: 2%;*/
+    padding: 0.5rem;
+    margin: 2.5rem 1rem;
 }
 
 .blog-card-side-bar {
